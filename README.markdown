@@ -9,9 +9,7 @@
 
 ***
 
-# Installation
-
-## (1) on a Raspberry Pi
+# Installation on a Raspberry Pi
 
 ### ensure Python is installed:
 ```
