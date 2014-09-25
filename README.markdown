@@ -43,6 +43,15 @@ cd /picamera_to_browser
 python capture_with_streamed_response.py
 ```
 
+#### To daemonize the web app, use nohup with ampersand ('&'):
+```
+cd /picamera_to_browser
+nohup python capture_with_streamed_response.py &
+... see if it's running and what the pid is:
+ps aux | grep -i python
+```
+
+
 ### use a web browser to capture and view a photo:
 http://use_the_rpi_IP:5000/smile
 
