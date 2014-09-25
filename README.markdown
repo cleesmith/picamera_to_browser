@@ -43,7 +43,7 @@ cd /picamera_to_browser
 python capture_with_streamed_response.py
 ```
 
-#### To daemonize the web app, use nohup with ampersand ('&'):
+#### to daemonize the web app, use nohup with ampersand ('&'):
 ```
 cd /picamera_to_browser
 nohup python capture_with_streamed_response.py &
