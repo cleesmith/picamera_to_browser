@@ -6,6 +6,7 @@ from flask import Flask, Response, request
 try:
   import picamera
 except:
+  # is there a better way to exit?
   sys.exit(0)
 
 app = Flask(__name__)
