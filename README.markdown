@@ -1,7 +1,7 @@
 # Sep 2014: Raspberry Pi
-# Use picamera to capture a jpeg image then stream it to a web browser.
-# The jpeg image is never saved to disk, so it all happens in memory.
-# Uses:
+### Use picamera to capture a jpeg image then stream it to a web browser.
+### The jpeg image is never saved to disk, so it all happens in memory.
+### Uses:
 * just to take a photo remotely
 * who's that knocking at my door
 
@@ -39,9 +39,10 @@ sudo pip install Flask
 git clone https://github.com/cleesmith/???????????????.git
 cd /???????????????
 python capture_with_streamed_response.py
-... use web browser to capture and view a photo:
-http://use_the_rpi_IP:5000/smile
 ```
+
+### use a web browser to capture and view a photo:
+http://use_the_rpi_IP:5000/smile
 
 ### after testing, the red LED on the camera can be turned off:
 ```
