@@ -50,7 +50,7 @@ nohup python capture_with_streamed_response.py &
 ... see if it's running and what the pid is:
 ps aux | grep -i python
 ```
-
+> ... or via Upstart, or init.d, etc.
 
 ### use a web browser to capture and view a photo:
 http://use_the_rpi_IP:5000/smile
