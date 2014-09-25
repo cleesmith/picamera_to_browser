@@ -38,8 +38,8 @@ sudo apt-get install python-picamera
 ### install/start the Flask web app:
 ```
 sudo pip install Flask
-git clone https://github.com/cleesmith/???????????????.git
-cd /???????????????
+git clone https://github.com/cleesmith/picamera_to_browser.git
+cd /picamera_to_browser
 python capture_with_streamed_response.py
 ```
 
