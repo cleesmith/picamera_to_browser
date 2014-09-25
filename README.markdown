@@ -1,7 +1,9 @@
 # Sep 2014: Raspberry Pi
 > Use picamera to capture a jpeg image then stream it to a web browser. 
+
 > The jpeg image is never saved to disk, so it all happens in memory.
-### Uses:
+
+> Uses:
 * just to take a photo remotely
 * who's that knocking at my door
 
